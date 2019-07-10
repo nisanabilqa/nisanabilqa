@@ -1,7 +1,6 @@
  /* Start Font */
  @import url('https://fonts.googleapis.com/css?family=Roboto');
  /* End Font */
-
  body {
     color: #24292e;
     font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -70,10 +69,7 @@ h3 {
     width: 90%  
 }
 
-.main-home-one{
-    float: left;
-    width: 49.5%;
-}
+
 
 
 .container-full{
@@ -86,6 +82,7 @@ h3 {
 /* Start Logo */
 .logo{
     text-align: center;
+    height: 100%;
 }
 /* End Logo */
 
@@ -128,7 +125,7 @@ h3 {
 /* Start Anchor / hyperlink*/
 a:link,
 a:visited {
-    color: blue;
+    color: black;
     text-decoration: none;   
 }
 a:hover,
@@ -211,7 +208,7 @@ h6 {
     padding: 10px 20px;
     text-transform: uppercase;
 }
-.box-heading-h4 {
+.box-heading h4 {
     font-size: 14px;
     margin: 0;
 }
@@ -249,7 +246,7 @@ h6 {
     padding: 0;
 }
 .menu-sekunder li {
-    list style: disc;
+    list-style: disc;
 }
 
 .menu-sekunder li a,
@@ -274,8 +271,76 @@ h6 {
 }
 /* End Menu Sekunder*/
 
-/* Start copyright */
-.copyright p {
-    font-size: 15px;
+/* Start Gambar */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600;);
+.snip1571 {
+  background-color: #000;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  display: inline-block;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
-/* End copyright */
+.snip1571 *,
+.snip1571 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1571 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1571 figcaption {
+  bottom: 30px;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+}
+.snip1571 figcaption:before {
+  background-color: #ffffff;
+  bottom: -5px;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 100%;
+  top: -5px;
+  z-index: -1;
+}
+.snip1571 h3 {
+  background-color: #c73232;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.snip1571 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1571:hover > img,
+.snip1571.hover > img {
+  opacity: 0.1;
+}
+.snip1571:hover figcaption:before,
+.snip1571.hover figcaption:before {
+  right: -5px;
+}
+
+/* End Gambar */
